@@ -71,3 +71,43 @@ nav ul{
     width: 336px;
     height: 284px;
 }
+/* pillars styles */
+main{
+    margin: 14px 114px 57px 114px;
+}
+.pillars{
+    align-items: center;
+}
+.pillars-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+    align-items: flex-start;
+    gap: 17px;
+    padding: 17px 0;
+}
+.pillars-name{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.pillars-about div{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 17px;
+}
+.pillar-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 700;
+}
+.pillar-subtitle{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+}
