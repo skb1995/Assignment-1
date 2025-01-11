@@ -111,3 +111,72 @@ main{
     font-size: 12px;
     font-weight: 400;
 }
+/* vision styles */
+.vision-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+.vision-future{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.vision-future-subtitle{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+}
+.box-1{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 17px;
+}
+.box-2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 17px;
+}
+.box-3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 17px;
+}
+.vision-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 700;
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+}
+.vision-btn-1{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+}
+.vision-btn-2{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+}
+.vision-btn-3{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+}
+.font-color{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    padding: 5px 10px;
+}
