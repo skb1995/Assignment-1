@@ -1,0 +1,73 @@
+
+
+
+    /*nav -styles*/
+.header{
+    padding: 17px 114px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 0;
+}
+.nav-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 23px;
+    font-weight: 700;
+}
+.nav-button{
+    padding: 11px 22px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 600;
+}
+/* banner styles */
+.banner{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 14px 114px 57px 114px;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.banner-content{
+    align-items: center;
+    margin: 84px 43px;
+    width: 441px;
+}
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-weight: 500;  
+}
+.banner-subtitle{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner-btn{
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    padding: 13px 24px 13px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 600
+}
+.hero{
+    width: 336px;
+    height: 284px;
+}
