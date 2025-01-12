@@ -5,6 +5,10 @@
 .header{
     padding: 17px 114px;
 }
+button:hover{
+    background-color: rgba(185, 51, 141, 0.685);
+    transition: 1.5s;
+}
 
 nav ul{
     display: flex;
@@ -183,7 +187,7 @@ main{
 /* news-styles */
 .news-paper{
     border-radius: 24px;
-    background: rgb(247, 240, 240);
+    background: white;
 }
 .news-container{
     display: flex;
@@ -209,9 +213,9 @@ main{
 }
 .news-description{
     color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 12px;
-font-weight: 400;
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
 }
 .news-contant button{
     border-radius: 8px;
@@ -222,4 +226,8 @@ font-weight: 400;
     font-family: Fira Sans;
     font-size: 13px;
     font-weight: 600;
+}
+.news-contant button:hover{
+    background-color: rgba(185, 51, 141, 0.685);
+    transition: 1.5s;
 }
