@@ -115,6 +115,45 @@ main{
     font-size: 12px;
     font-weight: 400;
 }
+/* quote style */
+.quote{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255) url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 14px;
+    padding: 40px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;}
+q{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    
+}
+.name{
+    padding: 0;
+    color: rgba(14, 14, 14, 0.8);
+    Font: Fira Sans;
+    font-weight: 600;
+    Font size: 16px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+.post{
+    padding-top: 0;
+    font: fira Sans;
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0px;
+}
 /* vision styles */
 .vision-box{
     display: flex;
@@ -230,4 +269,54 @@ main{
 .news-contant button:hover{
     background-color: rgba(185, 51, 141, 0.685);
     transition: 1.5s;
+}
+/* donation style */
+.donation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+}
+.donation-des{
+    /* background-color: aqua; */
+    margin-left: 111px;
+    margin-right: 111px;
+    margin-top: 0;
+}
+.taka{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 28px;
+    font-weight: 700;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 11px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+.money{
+    background-color: rgb(198, 228, 214);
+}
+.amount{
+    padding: 8px 250px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+   font-size: 14px;
+font-weight: 400;
+}
+.done{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding:9px 18px ;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 600;
 }
